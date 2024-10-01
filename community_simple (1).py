@@ -11,7 +11,7 @@ community_name = []
 organism_list = []
 o = []
 
-basePath = "C:/Users/LENOVO/Desktop/Documents/Ana/Universidade do Minho-Mestrado em Bioinformatica/2ano/Dissertação/Models"
+basePath = "C:/Users/Models"
 list_models = []
 constraints = {}
 
