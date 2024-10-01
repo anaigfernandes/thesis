@@ -6,7 +6,7 @@ from reframed import SteadyCom, SteadyComVA
 
 #from optimModels.utils.utils import fix_exchange_reactions_model
 
-basePath = "C:/Users/LENOVO/Desktop/com"
+basePath = "C:/Users/com"
 
 constraints = {}
 list_models = []
@@ -35,7 +35,7 @@ community = Community('com_model', list_models)
 
 community_model = community.merged_model
 
-basePath = "C:/Users/LENOVO/Desktop/com/commModel_lambic_beer.xml"
+basePath = "C:/Users/com/commModel_lambic_beer.xml"
 
 save_cbmodel(community_model, basePath)#, flavor='fbc2')
 
